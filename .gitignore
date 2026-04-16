@@ -1,0 +1,26 @@
+# Python virtual environments
+**/.venv/
+.venv/
+backend/.venv/
+frontend/.venv/
+
+# Python cache files
+**/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / OS files
+.DS_Store
+*.swp
+# Ensure all venv directories are ignored
+.venv/
+*.venv/
+**/.venv/
+**/.venv/*
+
+# Ensure all Python cache and build artifacts are ignored
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
